@@ -1,7 +1,3 @@
-//Java program to implement
-//a Simple Registration Form
-//using Java Swing
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -10,7 +6,6 @@ class MyFrame
 	extends JFrame
 	implements ActionListener {
 
-	// Components of the Form
 	private Container c;
 	private JLabel title;
 	private JLabel name;
@@ -55,8 +50,6 @@ class MyFrame
 			"2015", "2016", "2017", "2018",
 			"2019" };
 
-	// constructor, to initialize the components
-	// with default values.
 	public MyFrame()
 	{
 		setTitle("Registration Form");
@@ -202,9 +195,6 @@ class MyFrame
 		setVisible(true);
 	}
 
-	// method actionPerformed()
-	// to get the action performed
-	// by the user and act accordingly
 	public void actionPerformed(ActionEvent e)
 	{
 		if (e.getSource() == sub) {
